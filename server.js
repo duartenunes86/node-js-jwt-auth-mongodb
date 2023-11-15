@@ -5,7 +5,7 @@ const dbConfig = require("./app/config/db.config");
 const app = express();
 
 var corsOptions = {
-  origin: "http://localhost:1234",
+  origin: "*",
   optionsSuccessStatus: 200 // For legacy browser support
 };
 
